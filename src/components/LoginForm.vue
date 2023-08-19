@@ -66,7 +66,7 @@
           cols="6"
           offset="3"
           md="4">
-          <v-btn class="button" :disabled="!valid">
+          <v-btn class="button" :disabled="valid">
             Button
           </v-btn>
         </v-col>
